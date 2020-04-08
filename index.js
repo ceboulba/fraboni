@@ -9,36 +9,16 @@ const imageName = document.querySelector('.imageName')
 console.log(imageName.innerHTML)
 
 const imgs = [
-  'https://res.cloudinary.com/archipicture/image/upload/v1580795988/ca-jussey/axo-RDC-02.jpg',
-  'https://res.cloudinary.com/archipicture/image/upload/v1580795982/ca-jussey/axo-RDC-01.jpg',
-  'https://res.cloudinary.com/archipicture/image/upload/v1580797168/ca-jussey/axo-Etage-02.jpg',
-  'https://res.cloudinary.com/archipicture/image/upload/v1580796545/ca-jussey/axo-Etage-01.jpg',
-  'https://res.cloudinary.com/archipicture/image/upload/v1580765411/ca-jussey/cam01.jpg',
-  'https://res.cloudinary.com/archipicture/image/upload/v1580848044/ca-jussey/cam08.jpg',
-  'https://res.cloudinary.com/archipicture/image/upload/v1580817863/ca-jussey/cam10.jpg',
-  'https://res.cloudinary.com/archipicture/image/upload/v1580845510/ca-jussey/cam09.jpg',
-  'https://res.cloudinary.com/archipicture/image/upload/v1580845677/ca-jussey/cam16.jpg',
-  'https://res.cloudinary.com/archipicture/image/upload/v1580799098/ca-jussey/cam-07.jpg',
-  'https://res.cloudinary.com/archipicture/image/upload/v1580846997/ca-jussey/cam05.jpg',
-  'https://res.cloudinary.com/archipicture/image/upload/v1580773296/ca-jussey/cam18.jpg',
-  'https://res.cloudinary.com/archipicture/image/upload/v1580777043/ca-jussey/cam11.jpg',
-  'https://res.cloudinary.com/archipicture/image/upload/v1580772537/ca-jussey/cam20.jpg',
+  'https://res.cloudinary.com/archipicture/image/upload/v1586377453/fraboni/Visite01.jpg',
+  'https://res.cloudinary.com/archipicture/image/upload/v1586377460/fraboni/Visite02.jpg',
+  'https://res.cloudinary.com/archipicture/image/upload/v1586377462/fraboni/Visite03.jpg',
+  'https://res.cloudinary.com/archipicture/image/upload/v1586377454/fraboni/Visite04.jpg',
 ]
 const imgName= [
-  'RDC vue axo 1',
-  'RDC vue axo 2',
-  'ETAGE vue axo 1',
-  'ETAGE vue axo 2',
-  'RDC entrée',
-  'RDC carré / arbre',
-  'RDC carré / attente',
-  'RDC espace collaborateurs',
-  'RDC espace collaborateurs',
-  'couloir salle des coffres',
-  'RDC tisanerie',
-  'RDC accès étage',
-  'ETAGE palier',
-  'ETAGE attente',
+  'RDC vue 1',
+  'RDC vue 2',
+  'RDC vue 3',
+  'RDC vue 4',
 ]
 
 let num = 0
