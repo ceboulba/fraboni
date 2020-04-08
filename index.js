@@ -101,14 +101,14 @@ const check = () => {
   num === 9 ? imgView.src = imgs[9] : null
 }
 
-check()
+//check()
 
 const next = () => {
   num < imgs.length - 1 ?
     num++
     : num = 0
   scene = createScene()
-  check()
+  //check()
 }
 
 const prev = () => {
@@ -117,7 +117,7 @@ const prev = () => {
     num = imgs.length - 1
     : num--
   scene = createScene()
-  check()
+  //check()
 }
 
 engine.runRenderLoop(function () {
